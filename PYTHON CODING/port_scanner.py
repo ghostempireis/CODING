@@ -5,8 +5,8 @@ import time
 usage = "python3 port_scan.py TARGET START_PORT END_PORT"
 print("-"*70)
 print("Python Simple Port Scanner")
-print("-"*70)
 
+print("-"*70)
 if(len(sys.argv) !=4):
     print(usage)
     sys.exit()
